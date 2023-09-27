@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Practice</title>
+</head>
+
+<body>
+    <h1>Form Practice</h1>
+    <form action="#" method="post">
+        <!-- Text Input -->
+        <label for="text_input">Text Input:</label>
+        <input type="text" id="text_input" name="text_input" placeholder="Enter text" required>
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <fieldset>
+            <legend>Choose an option:</legend>
+            <input type="radio" id="option1" name="options" value="option1">
+            <label for="option1">Option 1</label><br>
+            <input type="radio" id="option2" name="options" value="option2">
+            <label for="option2">Option 2</label><br>
+            <input type="radio" id="option3" name="options" value="option3">
+            <label for="option3">Option 3</label>
+        </fieldset>
+        <br>
+
+        <!-- Checkbox -->
+        <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+        <label for="checkbox">Check this box</label>
+        <br><br>
+
+        <!-- Select Dropdown -->
+        <label for="select">Select a fruit:</label>
+        <select id="select" name="select">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+            <option value="grape">Grape</option>
+        </select>
+        <br><br>
+
+        <!-- Date Input -->
+        <label for="date_input">Select a date:</label>
+        <input type="date" id="date_input" name="date_input">
+        <br><br>
+
+        <!-- Textarea -->
+        <label for="textarea">Enter your comments:</label>
+        <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Type here..."></textarea>
+        <br><br>
+
+        <!-- Color Input -->
+        <label for="color_input">Choose a color:</label>
+        <input type="color" id="color_input" name="color_input">
+        <br><br>
+
+        <!-- Datalist -->
+        <label for="datalist_input">Select a fruit from the list:</label>
+        <input list="fruits" id="datalist_input" name="datalist_input">
+        <datalist id="fruits">
+            <option value="Apple">
+            <option value="Banana">
+            <option value="Cherry">
+            <option value="Grape">
+        </datalist>
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
